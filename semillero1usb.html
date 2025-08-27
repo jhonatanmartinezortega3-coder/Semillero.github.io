@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semillero de Investigación</title>
+    <link rel="stylesheet" href="semillero1usb.css">
+</head>
+<body>
+    <header>
+
+        <h1>GIEDSE (GRUPO DE INVESTIGACIÓN EN EQUIDAD PARA EL DESARROLLO SOCIOECONÓMICO)</h1>
+        <p>Investigación, Innovación y Desarrollo</p>
+    </header>
+
+      <nav>
+        <ul>
+            <li><a href="#quienes-somos">¿Quiénes Somos?</a></li>
+            <li><a href="#lineas-investigacion">Líneas de Investigación</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="quienes-somos">
+
+        <h2>¿Quiénes Somos?</h2>
+
+        <p>El Semillero de Investigación (GIEDSE) grupo de investigación en equidad para el desarrollo 
+        socioeconómico está conformado por estudiantes y docentes dedicados a la exploración y desarrollo de nuevas ideas.</p>
+        <b class="left-align">MISION</b>
+        <p class="texto-izquierda">“Somos un grupo de académicos que realizamos investigaciones científicas para contribuir a la sociedad, 
+            brindando alternativas de solución a la pobreza y a la desigualdad social, a través de la gerencia social, 
+            políticas públicas, respetando la diversidad cultural, generando cambio y desarrollo social sostenible de nuestra 
+            comunidad, región y país”
+        </p>
+        <b class="left-align">VISION</b>
+        <p class="texto-izquierda">“Aspiramos convertirnos en un referente en la Construcción de una sociedad justa, equitativa, 
+            sostenible y consciente, desarrollando soluciones innovadoras y liderando investigaciones 
+            que mejoren la calidad de vida y resuelvan problemas críticos de la sociedad, motivación para otros jóvenes 
+            que quieran contribuir con el cambio y desarrollo social a través de la formación critica, 
+            colaboración interdisciplinaria y el avance científico”
+        </p>
+        <img src="img/circulo de estudios.jpeg" class="img-01"/>
+    </section>
+
+    <div class="objetivos">
+        <b class="left-align">Objetivo General</b>
+        <p class="texto-izquierda">
+            Desarrollar investigaciones y soluciones innovadoras para la construcción de una sociedad justa, 
+            equitativa y sostenible para mejorar la calidad de vida en la región y el país.
+        </p>
+        
+        <b class="left-align">Objetivos específicos</b>
+        <p class="texto-izquierda">
+            1. Realizar estudios que identifiquen las principales desigualdades socioeconómicas y ambientales en la región y el país, 
+            para formular soluciones adaptadas a las necesidades de la población.<br>
+            2. Desarrollar modelos teóricos y aplicados que promuevan la inclusión social y la reducción de la desigualdad 
+            en áreas como educación, salud, y acceso a servicios básicos.<br>
+            3. Formar y capacitar a jóvenes investigadores y profesionales en prácticas de investigación éticas y responsables, 
+            con un enfoque interdisciplinario que incluya aspectos sociales, económicos y ambientales.<br>
+            4. Establecer alianzas con comunidades y organizaciones para asegurar la relevancia de los proyectos.<br>
+            5. Identificar y reducir desigualdades socioeconómicas y ambientales mediante investigaciones aplicadas.<br>
+            6. Publicar resultados de investigación en revistas científicas y medios accesibles al público en general, 
+            fomentando la sensibilización y la educación de la ciudadanía en temas de justicia y sostenibilidad.
+        </p>
+    </div>
+
+    <div class="carousel-container">
+        <div class="carousel">
+          <img src="img/jhona1.jpeg" alt="Imagen 1" class="carousel-image">
+          <img src="img/jhona2.jpeg" alt="Imagen 2" class="carousel-image">
+          <img src="img/jhona3.jpeg" alt="Imagen 3" class="carousel-image">
+          <img src="img/jhona4.jpeg" alt="Imagen 4" class="carousel-image">
+        </div>
+      
+        <!-- Botones para controlar el carrusel -->
+        <button class="carousel-btn prev" onclick="prevImage()">Atras</button>
+        <button class="carousel-btn next" onclick="nextImage()">Siguiente</button>
+    </div>
+
+    <section id="lineas-investigacion">
+        <h2>Líneas de Investigación</h2>
+
+        <ul>
+            <li><button onclick="mostrarInfo('tecnologia')">Proyecto en Curso</button></li>
+            <li><button onclick="mostrarInfo('sostenibilidad')">Desarrollo Sostenible</button></li>
+            <li><button onclick="mostrarInfo('educacion')">Innovación en la Educación</button></li>
+            <li><button onclick="mostrarInfo('salud')">Salud y Bienestar</button></li>
+        </ul>
+        <div id="info-investigacion"></div>
+    </section>
+
+    <section id="eventos">
+        <h2>Próximos Eventos</h2>
+        <p>Mantente informado de nuestros próximos eventos y presentaciones:</p>
+        <ul>
+            <li>Simposio de Investigación - 15 de Noviembre 2024</li>
+            <li>Taller de Innovación Tecnológica - 5 de Diciembre 2024</li>
+        </ul>
+        <button onclick="agregarEvento()">Agregar un nuevo evento</button>
+        <div id="nuevo-evento"></div>
+    </section>
+
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <p>Correo electrónico: contacto@semillero.com</p>
+        <p>Teléfono: +57 123 456 7890</p>
+        <p>Dirección: Calle 123, Ciudad Universitaria</p>
+        <p>&copy; 2024 Semillero de Investigación. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="semillero1usb.js"></script>
+</body>
+</html>
